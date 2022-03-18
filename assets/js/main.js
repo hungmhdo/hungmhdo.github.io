@@ -58,6 +58,25 @@ linkWork.forEach((lw) => {
 });
 
 /*=============== SWIPER TESTIMONIAL ===============*/
+let swiperAwards = new Swiper('.awards__container', {
+    spaceBetween: 24,
+    loop: true,
+    grabCursor: true,
+    pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+    },
+    breakpoints: {
+        576: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+        },
+        768: {
+            slidesPerView: 2,
+            spaceBetween: 48,
+        },
+    },
+});
 
 /*=============== SCROLL SECTIONS ACTIVE LINK ===============*/
 

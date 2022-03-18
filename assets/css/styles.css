@@ -628,9 +628,61 @@ img {
     color: var(--body-color);
 }
 
-/*=============== TESTIMONIAL ===============*/
+/*=============== AWARDS ===============*/
+.awards__card {
+    background-color: var(--container-color);
+    padding: 1.25rem 1.5rem;
+    border-radius: 1.5rem;
+    margin-bottom: 3rem;
+}
+
+.awards__img {
+    width: 60px;
+    border-radius: 3rem;
+    margin-bottom: 1rem;
+}
+
+.awards__name {
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-medium);
+    margin-bottom: 0.25rem;
+}
+
+.awards__description {
+    font-size: var(--tiny-font-size);
+}
+
+.awards__prize {
+    align-items: center;
+    display: flex;
+    margin-bottom: 0.25rem;
+}
+
+.awards__icon {
+    padding-left: 0.25rem;
+    font-size: var(--h1-font-size);
+}
+
+.award__icon-gold {
+    color: #f6dd00;
+}
+
+.award__icon-silver {
+    color: #c6c6c6;
+}
+
+.award__icon-bronze {
+    color: #8e5500;
+}
 
 /* Swiper class */
+.swiper-pagination-bullet {
+    background-color: var(--text-color-light);
+}
+
+.swiper-pagination-bullet-active {
+    background-color: var(--first-color);
+}
 
 /*=============== CONTACT ===============*/
 
